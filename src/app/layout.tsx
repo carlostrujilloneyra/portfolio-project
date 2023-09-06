@@ -3,7 +3,7 @@ import { Kumbh_Sans, Lexend_Deca } from 'next/font/google'
 import './globals.css'
 
 const kumbh_sans = Kumbh_Sans({
-  weight: ['400', '500', '600', '700', '800', '900'],
+  weight: ['600', '700', '800', '900'],
   subsets: ['latin'],
   variable: '--font-kumbh-sans',
   style: ['normal']
@@ -11,7 +11,7 @@ const kumbh_sans = Kumbh_Sans({
 );
 
 const lexend_deca = Lexend_Deca({
-  weight: ['200', '300', '400', '500', '600', '700'],
+  weight: ['300', '400', '500', '600', '700'],
   subsets: ['latin'],
   variable: '--font-lexend-deca',
   style: ['normal']
@@ -53,7 +53,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${kumbh_sans.variable} ${lexend_deca.variable}`}>{children}</body>
+      <body>{children}</body>
     </html>
   )
 }

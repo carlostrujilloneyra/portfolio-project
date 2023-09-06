@@ -30,6 +30,10 @@
     @apply bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200 text-transparent bg-clip-text;
   }
 
+  .cursor-typewriter{
+    @apply inline-block opacity-100 w-2 bg-blue-300 rounded-lg ml-2;
+  }
+
 }
 
 
