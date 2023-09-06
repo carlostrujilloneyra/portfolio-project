@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     title: 'Carlos Trujillo - Portafolio de proyectos',
     description: '¡Hola!, te presento mi portafolio donde podrás ver mis proyectos y habilidades.',
     creator: '@Carlos95018928',
-    images: ['https://carlostrujilloneyra.netlify.app/og.jpg'],
+    images: ['https://metatags.io/images/meta-tags.png'],
   }
 }
 
