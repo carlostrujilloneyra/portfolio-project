@@ -48,6 +48,11 @@ export const metadata: Metadata = {
         url: 'https://carlostrujilloneyra.netlify.app/og.jpg',
         width: 1200,
         height: 630,
+      },
+      {
+        url: 'https://carlostrujilloneyra.netlify.app/og.jpg',
+        width: 2400,
+        height: 1260,
       }
     ]
   },
@@ -56,7 +61,7 @@ export const metadata: Metadata = {
     title: 'Carlos Trujillo - Portafolio de proyectos',
     description: '¡Hola!, te presento mi portafolio donde podrás ver mis proyectos y habilidades.',
     creator: '@Carlos95018928',
-    images: ['https://carlostrujilloneyra.netlify.app/og.jpg']
+    images: ['https://carlostrujilloneyra.netlify.app/og.jpg'],
   }
 }
 
