@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     siteName: 'Carlos Trujillo - Portafolio de proyectos',
     images: [
       {
-        url: '/og.jpg',
+        url: 'https://carlostrujilloneyra.netlify.app/og.jpg',
         width: 1200,
         height: 630,
       }
