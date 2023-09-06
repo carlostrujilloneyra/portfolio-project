@@ -50,15 +50,14 @@ export const metadata: Metadata = {
         height: 630,
       }
     ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Carlos Trujillo - Portafolio de proyectos',
+    description: '¡Hola!, te presento mi portafolio donde podrás ver mis proyectos y habilidades.',
+    creator: '@Carlos95018928',
+    images: ['https://carlostrujilloneyra.netlify.app/og.jpg']
   }
-  // openGraph: {
-  //   type: 'website',
-  //   locale: 'es_ES',
-  //   url: 'https://carlostrujillo.vercel.app/',
-  //   title: 'Carlos Trujillo - Portafolio de proyectos',
-  //   description: '¡Hola!, te presento mi portafolio donde podrás ver mis proyectos y habilidades.',
-  //   siteName: 'Carlos Trujillo - Desarrollador de Software'
-  // }
 }
 
 export default function RootLayout({
