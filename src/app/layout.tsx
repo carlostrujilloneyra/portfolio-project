@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   description: '¡Hola!, te presento mi portafolio donde podrás ver mis proyectos y habilidades.',
   keywords: 'My portfolio, portafolio, Next.js, carlostrujillo, desarrollador, developer, frontend, frontend-developer, programador, proyectos, react',
   creator: 'Carlos Trujillo',
+  authors: [{name: 'Carlos Trujillo'}],
   applicationName: 'Portafolio de Carlos Trujillo',
   icons: {
     icon: [
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
   manifest: '/site.webmanifest',
   openGraph: {
     title: 'Carlos Trujillo - Portafolio de proyectos',
-    description: '¡Hola!, te presento mi portafolio donde podrás ver mis proyectos y habilidades.',
+    description: '¡Hola!, estoy encantado de que estés aquí, te presento mi portafolio donde podrás ver mis proyectos y habilidades. Dentro de mi portafolio encontrarás una variedad de proyectos que abarcan diferentes áreas y desafíos. Te invito a explorar mis proyectos y siéntete libre de contactarme si tienes alguna pregunta o si deseas trabajar conmigo.',
     url: 'https://carlostrujilloneyra.netlify.app/',
     type: 'website',
     locale: 'es_ES',
@@ -46,8 +47,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://carlostrujilloneyra.netlify.app/og.jpg',
-        width: 1200,
-        height: 630,
+        width: 2400,
+        height: 1260,
         alt: '¡Hola!, te presento mi portafolio donde podrás ver mis proyectos y habilidades.'
       },
       {
