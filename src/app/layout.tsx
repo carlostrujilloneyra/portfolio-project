@@ -48,12 +48,13 @@ export const metadata: Metadata = {
         url: 'https://carlostrujilloneyra.netlify.app/og.jpg',
         width: 1200,
         height: 630,
+        alt: '¡Hola!, te presento mi portafolio donde podrás ver mis proyectos y habilidades.'
       },
       {
         url: 'https://carlostrujilloneyra.netlify.app/og.jpg',
         width: 2400,
         height: 1260,
-        alt: 'Og Image Alt',
+        alt: '¡Hola!, te presento mi portafolio donde podrás ver mis proyectos y habilidades.',
       }
     ]
   },
