@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     url: 'https://carlostrujilloneyra.netlify.app/',
     type: 'website',
     locale: 'es_ES',
-    siteName: 'Carlos Trujillo - Portafolio de proyectos',
+    siteName: 'https://carlostrujilloneyra.netlify.app/',
     images: [
       {
         url: 'https://carlostrujilloneyra.netlify.app/og.jpg',
