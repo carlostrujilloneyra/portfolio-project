@@ -53,7 +53,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${kumbh_sans.variable} ${lexend_deca.variable}`}>{children}</body>
     </html>
   )
 }
