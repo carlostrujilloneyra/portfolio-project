@@ -6,4 +6,30 @@
   body{
     @apply bg-black;
   }
+
+  p{
+    @apply font-lexen_deca;
+  }
+
+  h1, h2, h3{
+    @apply font-kumb_sans;
+  }
+
+  .container{
+    @apply max-w-[1500px] mx-auto; 
+  }
+
 }
+
+@layer components{
+  .padding-x{
+    @apply px-8 sm:px-10 lg:px-20 min-[1300px]:px-[100px];
+  }
+
+  .frontend-gradient{
+    @apply bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200 text-transparent bg-clip-text;
+  }
+
+}
+
+

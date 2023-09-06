@@ -1,5 +1,7 @@
 import type { Config } from 'tailwindcss'
 
+import { fontFamily } from 'tailwindcss/defaultTheme';
+
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -14,7 +16,15 @@ const config: Config = {
       },
       colors: {
         darkGrey: '#1B1F24',
-        colorText: '#7D8590'
+        colorText: '#7D8590',
+        whiteColor: '#FFFFFF',
+      },
+      fontFamily: {
+        kumb_sans: ['var(--font-kumbh-sans)', ...fontFamily.serif],
+        lexen_deca: ['var(--font-lexend-deca)', ...fontFamily.serif]
+      },
+      gridTemplateColumns: {
+        'hero-grid-max': '.8fr .6fr'
       }
     },
   },
