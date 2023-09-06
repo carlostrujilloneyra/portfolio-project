@@ -36,6 +36,21 @@ export const metadata: Metadata = {
     ]
   },
   manifest: '/site.webmanifest',
+  openGraph: {
+    title: 'Carlos Trujillo - Portafolio de proyectos',
+    description: '¡Hola!, te presento mi portafolio donde podrás ver mis proyectos y habilidades.',
+    url: 'https://carlostrujilloneyra.netlify.app/',
+    type: 'website',
+    locale: 'es_ES',
+    siteName: 'Carlos Trujillo - Portafolio de proyectos',
+    images: [
+      {
+        url: '/og.jpg',
+        width: 1200,
+        height: 630,
+      }
+    ]
+  }
   // openGraph: {
   //   type: 'website',
   //   locale: 'es_ES',
