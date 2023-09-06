@@ -20,7 +20,7 @@ const lexend_deca = Lexend_Deca({
 export const metadata: Metadata = {
   // Los campos antes de openGraph son para el SEO que aparecerá en los motores de búsqueda como Google
   title: 'Carlos Trujillo - Portafolio de proyectos',
-  description: '¡Hola!, te presento mi portafolio donde podrás ver mis proyectos y habilidades.',
+  description: '¡Hola!, estoy encantado de que estés aquí, te presento mi portafolio donde podrás ver mis proyectos y habilidades. Dentro de mi portafolio encontrarás una variedad de proyectos que abarcan diferentes áreas y desafíos. Te invito a explorar mis proyectos y siéntete libre de contactarme si tienes alguna pregunta o si deseas trabajar conmigo.',
   keywords: 'My portfolio, portafolio, Next.js, carlostrujillo, desarrollador, developer, frontend, frontend-developer, programador, proyectos, react',
   creator: 'Carlos Trujillo',
   authors: [{name: 'Carlos Trujillo'}],
