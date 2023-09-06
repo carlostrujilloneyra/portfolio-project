@@ -53,6 +53,7 @@ export const metadata: Metadata = {
         url: 'https://carlostrujilloneyra.netlify.app/og.jpg',
         width: 2400,
         height: 1260,
+        alt: 'Og Image Alt',
       }
     ]
   },
