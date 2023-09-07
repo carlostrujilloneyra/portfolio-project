@@ -1,81 +1,80 @@
-import type { Metadata } from 'next'
-import { Kumbh_Sans, Lexend_Deca } from 'next/font/google'
-import './globals.css'
+import type { Metadata } from "next";
+import { Kumbh_Sans, Lexend_Deca } from "next/font/google";
+import "./globals.css";
 
 const kumbh_sans = Kumbh_Sans({
-  weight: ['600', '700', '800', '900'],
-  subsets: ['latin'],
-  variable: '--font-kumbh-sans',
-  style: ['normal']
-}
-);
+  weight: ["600", "700", "800", "900"],
+  subsets: ["latin"],
+  variable: "--font-kumbh-sans",
+  style: ["normal"],
+});
 
 const lexend_deca = Lexend_Deca({
-  weight: ['300', '400', '500', '600', '700'],
-  subsets: ['latin'],
-  variable: '--font-lexend-deca',
-  style: ['normal']
+  weight: ["300", "400", "500", "600", "700"],
+  subsets: ["latin"],
+  variable: "--font-lexend-deca",
+  style: ["normal"],
 });
 
 export const metadata: Metadata = {
   // Los campos antes de openGraph son para el SEO que aparecerá en los motores de búsqueda como Google
-  title: 'Carlos Trujillo - Portafolio de proyectos',
-  description: '¡Hola!, estoy encantado de que estés aquí, te presento mi portafolio donde podrás ver mis proyectos y habilidades. Dentro de mi portafolio encontrarás una variedad de proyectos que abarcan diferentes áreas y desafíos. Te invito a explorar mis proyectos y siéntete libre de contactarme si tienes alguna pregunta o si deseas trabajar conmigo.',
-  keywords: 'My portfolio, portafolio, Next.js, carlostrujillo, desarrollador, developer, frontend, frontend-developer, programador, proyectos, react',
-  creator: 'Carlos Trujillo',
-  authors: [{name: 'Carlos Trujillo'}],
-  applicationName: 'Portafolio de Carlos Trujillo',
+  title: "Carlos Trujillo - Portafolio de proyectos",
+  description:
+    "¡Hola!, estoy encantado de que estés aquí, te presento mi portafolio donde podrás ver mis proyectos y habilidades. Dentro de él encontrarás una variedad de proyectos que abarcan diferentes áreas y desafíos. Te invito a explorar mis proyectos y siéntete libre de contactarme si tienes alguna pregunta o si deseas trabajar conmigo.",
+  keywords:
+    "My portfolio, portafolio, Next.js, carlostrujillo, desarrollador, developer, frontend, frontend-developer, programador, proyectos, react",
+  creator: "Carlos Trujillo",
+  authors: [{ name: "Carlos Trujillo" }],
+  applicationName: "Portafolio de Carlos Trujillo",
   icons: {
-    icon: [
-      '/favicon.ico',
-    ],
-    apple: [
-      '/apple-touch-icon.png',
-    ],
-    shortcut: [
-      '/apple-touch-icon.png',
-    ]
+    icon: ["/favicon.ico"],
+    apple: ["/apple-touch-icon.png"],
+    shortcut: ["/apple-touch-icon.png"],
   },
-  manifest: '/site.webmanifest',
+  manifest: "/site.webmanifest",
   openGraph: {
-    title: 'Carlos Trujillo - Portafolio de proyectos',
-    description: '¡Hola!, estoy encantado de que estés aquí, te presento mi portafolio donde podrás ver mis proyectos y habilidades. Dentro de mi portafolio encontrarás una variedad de proyectos que abarcan diferentes áreas y desafíos. Te invito a explorar mis proyectos y siéntete libre de contactarme si tienes alguna pregunta o si deseas trabajar conmigo.',
-    url: 'https://carlostrujilloneyra.netlify.app/',
-    type: 'website',
-    locale: 'es_ES',
-    siteName: 'https://carlostrujilloneyra.netlify.app/',
+    title: "Carlos Trujillo - Portafolio de proyectos",
+    description:
+      "¡Hola!, estoy encantado de que estés aquí, te presento mi portafolio donde podrás ver mis proyectos y habilidades. Dentro de él encontrarás una variedad de proyectos que abarcan diferentes áreas y desafíos. Te invito a explorar mis proyectos y siéntete libre de contactarme si tienes alguna pregunta o si deseas trabajar conmigo.",
+    url: "https://carlostrujilloneyra.netlify.app/",
+    type: "website",
+    locale: "es_ES",
+    siteName: "https://carlostrujilloneyra.netlify.app/",
     images: [
       {
-        url: 'https://carlostrujilloneyra.netlify.app/og.jpg',
+        url: "https://carlostrujilloneyra.netlify.app/og.jpg",
         width: 2400,
         height: 1260,
-        alt: '¡Hola!, te presento mi portafolio donde podrás ver mis proyectos y habilidades.'
+        alt: "¡Hola!, te presento mi portafolio donde podrás ver mis proyectos y habilidades.",
       },
       {
-        url: 'https://carlostrujilloneyra.netlify.app/og.jpg',
+        url: "https://carlostrujilloneyra.netlify.app/og.jpg",
         width: 2400,
         height: 1260,
-        alt: '¡Hola!, te presento mi portafolio donde podrás ver mis proyectos y habilidades.',
-      }
-    ]
+        alt: "¡Hola!, te presento mi portafolio donde podrás ver mis proyectos y habilidades.",
+      },
+    ],
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'Carlos Trujillo - Portafolio de proyectos',
-    description: '¡Hola!, te presento mi portafolio donde podrás ver mis proyectos y habilidades.',
-    creator: '@Carlos95018928',
-    images: ['https://carlostrujilloneyra.netlify.app/og.jpg'],
-  }
-}
+    card: "summary_large_image",
+    title: "Carlos Trujillo - Portafolio de proyectos",
+    description:
+      "¡Hola!, te presento mi portafolio donde podrás ver mis proyectos y habilidades.",
+    creator: "@Carlos95018928",
+    images: ["https://carlostrujilloneyra.netlify.app/og.jpg"],
+  },
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className={`${kumbh_sans.variable} ${lexend_deca.variable}`}>{children}</body>
+      <body className={`${kumbh_sans.variable} ${lexend_deca.variable}`}>
+        {children}
+      </body>
     </html>
-  )
+  );
 }

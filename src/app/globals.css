@@ -2,38 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  body{
+@layer base {
+  body {
     @apply bg-black;
   }
 
-  p{
+  p,
+  button,
+  a {
     @apply font-lexen_deca;
   }
 
-  h1, h2, h3{
+  h1,
+  h2,
+  h3 {
     @apply font-kumb_sans;
   }
 
-  .container{
-    @apply max-w-[1500px] mx-auto; 
+  .container {
+    @apply mx-auto max-w-[1500px];
   }
-
 }
 
-@layer components{
-  .padding-x{
+@layer components {
+  .padding-x {
     @apply px-8 sm:px-10 lg:px-20 min-[1300px]:px-[100px];
   }
 
-  .frontend-gradient{
-    @apply bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200 text-transparent bg-clip-text;
+  .main-title {
+    @apply mb-7 text-center text-4xl font-extrabold leading-[42px] text-whiteColor sm:mb-9 sm:text-5xl sm:leading-[54px] lg:mb-0 lg:text-left lg:text-[52px] lg:leading-[57px] min-[1500px]:leading-[64px];
+  }
+  .frontend-gradient {
+    @apply bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200 bg-clip-text text-transparent;
   }
 
-  .cursor-typewriter{
-    @apply inline-block opacity-100 w-2 bg-blue-300 rounded-lg ml-2;
+  .cursor-typewriter {
+    @apply ml-2 inline-block w-2 rounded-lg bg-blue-300 opacity-100;
   }
 
+  .button-hero-portfolio {
+    @apply grid grid-cols-[23px,1fr] items-center gap-x-2 rounded-lg border-2 border-colorText px-4 py-[10px] text-[15px] font-medium text-white transition-all duration-300 ease-in-out hover:bg-[#232326];
+  }
 }
-
-
