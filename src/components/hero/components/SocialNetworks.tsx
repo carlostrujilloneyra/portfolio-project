@@ -20,7 +20,7 @@ export const SocialNetworks = () => {
 
   return (
     <>
-      <div className="mt-6 grid grid-cols-[repeat(2,max-content)] gap-x-4 gap-y-4 min-[550px]:grid-cols-[repeat(3,max-content)] sm:mt-8 lg:grid-cols-[repeat(2,max-content)] lg:gap-y-5 min-[1280px]:grid-cols-[repeat(3,max-content)]">
+      <div className="mt-6 grid grid-cols-[repeat(2,max-content)] gap-x-3 gap-y-4 min-[550px]:grid-cols-[repeat(3,max-content)] sm:mt-8 lg:grid-cols-[repeat(2,max-content)] lg:gap-y-5 min-[1280px]:grid-cols-[repeat(3,max-content)]">
         <button onClick={handleDownloadCV} className="button-hero-portfolio">
           <IconDownload size={20} color="#fff" stroke={3} />
           Descargar CV
@@ -29,7 +29,7 @@ export const SocialNetworks = () => {
         <Link
           href="https://github.com/carlostrujilloneyra"
           target="_blank"
-          className="grid grid-cols-[23px,60px] items-center gap-x-3 rounded-lg border-2 border-colorText px-4 py-[10px] text-[15px] font-medium text-white transition-all duration-300 ease-in-out hover:bg-[#232326]"
+          className="grid grid-cols-[23px,50px] items-center gap-x-3 rounded-lg border-2 border-colorText px-4 py-[10px] text-[15px] font-medium text-white transition-all duration-300 ease-in-out hover:scale-105 hover:bg-[#232326]"
         >
           <IconBrandGithubFilled size={23} color="#fff" stroke={3} />
           GitHub
@@ -38,7 +38,7 @@ export const SocialNetworks = () => {
         <Link
           href="https://www.linkedin.com/in/carlostrujillo21/"
           target="_blank"
-          className="grid w-[150px] grid-cols-[23px,max-content] items-center gap-x-3 rounded-lg border-2 border-colorText px-4 py-[10px] text-[15px] font-medium text-white transition-all duration-300 ease-in-out hover:bg-[#232326]"
+          className="grid w-[150px] grid-cols-[23px,max-content] items-center gap-x-3 rounded-lg border-2 border-colorText px-4 py-[10px] text-[15px] font-medium text-white transition-all duration-300 ease-in-out hover:scale-110 hover:border-[#0b66c2] hover:bg-[#0b66c2]"
         >
           <IconBrandLinkedin size={23} color="#fff" stroke={2} />
           Linkedin

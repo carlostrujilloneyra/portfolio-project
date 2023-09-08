@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Kumbh_Sans, Lexend_Deca } from "next/font/google";
 import "./globals.css";
+import { Header } from "@/components";
 
 const kumbh_sans = Kumbh_Sans({
   weight: ["600", "700", "800", "900"],
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
   description:
     "¡Hola!, estoy encantado de que estés aquí, te presento mi portafolio donde podrás ver mis proyectos y habilidades. Dentro de él encontrarás una variedad de proyectos que abarcan diferentes áreas y desafíos. Te invito a explorar mis proyectos y siéntete libre de contactarme si tienes alguna pregunta o si deseas trabajar conmigo.",
   keywords:
-    "My portfolio, portafolio, Next.js, carlostrujillo, desarrollador, developer, frontend, frontend-developer, programador, proyectos, react",
+    "My portfolio, portafolio, Next.js, carlostrujillo, desarrollador, developer, frontend, frontend-developer, programador, proyectos, react, portafolio de proyectos, html, css, javascript, portafolio de proyectos, programación, react developer",
   creator: "Carlos Trujillo",
   authors: [{ name: "Carlos Trujillo" }],
   applicationName: "Portafolio de Carlos Trujillo",
@@ -39,14 +40,8 @@ export const metadata: Metadata = {
     url: "https://carlostrujilloneyra.netlify.app/",
     type: "website",
     locale: "es_ES",
-    siteName: "https://carlostrujilloneyra.netlify.app/",
+    siteName: "Portafolio de Carlos Trujillo",
     images: [
-      {
-        url: "https://carlostrujilloneyra.netlify.app/og.jpg",
-        width: 2400,
-        height: 1260,
-        alt: "¡Hola!, te presento mi portafolio donde podrás ver mis proyectos y habilidades.",
-      },
       {
         url: "https://carlostrujilloneyra.netlify.app/og.jpg",
         width: 2400,
@@ -71,8 +66,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={`${kumbh_sans.variable} ${lexend_deca.variable}`}>
+        <Header />
         {children}
       </body>
     </html>

@@ -1,10 +1,10 @@
-import { Header, Hero } from "../../components";
+import { Hero, SectionExperience } from "@/components";
 
 export default function HomePage() {
   return (
     <>
-      <Header />
       <Hero />
+      <SectionExperience />
     </>
-  )
+  );
 }

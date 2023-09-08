@@ -40,7 +40,11 @@
     @apply ml-2 inline-block w-2 rounded-lg bg-blue-300 opacity-100;
   }
 
+  .subtitle-portfolio {
+    @apply mb-4 text-3xl font-bold text-whiteColor sm:text-[32px] lg:mb-5 lg:text-[40px];
+  }
+
   .button-hero-portfolio {
-    @apply grid grid-cols-[23px,1fr] items-center gap-x-2 rounded-lg border-2 border-colorText px-4 py-[10px] text-[15px] font-medium text-white transition-all duration-300 ease-in-out hover:bg-[#232326];
+    @apply grid grid-cols-[23px,1fr] items-center gap-x-2 rounded-lg border-2 border-colorText px-4 py-[10px] text-[15px] font-medium text-white transition-all duration-300 ease-in-out hover:scale-105 hover:bg-[#232326];
   }
 }

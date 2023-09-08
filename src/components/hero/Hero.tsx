@@ -6,7 +6,7 @@ import { HeroInfo, SocialNetworks } from "./components";
 export const Hero = () => {
   return (
     <>
-      <div className="padding-x container grid grid-cols-1 grid-rows-[170px,_1fr] gap-y-12 py-8 sm:grid-rows-none sm:gap-y-8 sm:py-12 lg:grid-cols-2 lg:gap-x-9 lg:gap-y-0 min-[1250px]:grid-cols-hero-grid-max">
+      <div className="padding-x container grid grid-cols-1 grid-rows-[170px,_1fr] gap-y-12 py-8 pb-3 sm:grid-rows-none sm:gap-y-8 sm:py-12 lg:grid-cols-2 lg:gap-x-9 lg:gap-y-0 min-[1250px]:grid-cols-hero-grid-max">
         <h1 className="main-title">
           ¡Hola!, me llamo Carlos y soy{" "}
           <span className="frontend-gradient">
