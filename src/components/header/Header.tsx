@@ -1,19 +1,16 @@
-import { Logo } from "./components"
+import { Logo } from "./components";
 
 export const Header = () => {
-	return (
-		<>
-			<header className="container h-24 bg-[#000000] py-8 padding-x sm:py-9 flex justify-between content-center">
-				
-				{/* Logo */}
-				<Logo />
+  return (
+    <>
+      <header className="container-max-width padding-x flex h-24 content-center justify-between bg-[#000000] py-8 sm:py-9">
+        {/* Logo */}
+        <Logo />
 
-				{/* Nav */}
+        {/* Nav */}
 
-				{/* Botón para cambiar a modo claro */}
-
-			</header>
-		</>
-	)
-}
-
+        {/* Botón para cambiar a modo claro */}
+      </header>
+    </>
+  );
+};

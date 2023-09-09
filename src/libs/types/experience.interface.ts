@@ -12,7 +12,9 @@ interface Technology {
   name: string;
 }
 
-interface Image {
+export interface Image {
   url: string;
+  width: number;
+  height: number;
   alt: string;
 }

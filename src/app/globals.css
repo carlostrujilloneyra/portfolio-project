@@ -19,8 +19,8 @@
     @apply font-kumb_sans;
   }
 
-  .container {
-    @apply mx-auto max-w-[1500px];
+  .container-max-width {
+    @apply m-auto max-w-[1500px];
   }
 }
 
@@ -45,6 +45,18 @@
   }
 
   .button-hero-portfolio {
-    @apply grid grid-cols-[23px,1fr] items-center gap-x-2 rounded-lg border-2 border-colorText px-4 py-[10px] text-[15px] font-medium text-white transition-all duration-300 ease-in-out hover:scale-105 hover:bg-[#232326];
+    @apply grid grid-cols-[23px,1fr] items-center gap-x-2 rounded-lg border-2 border-colorText px-4 py-[10px] text-sm font-medium text-white transition-all duration-300 ease-in-out lg:hover:scale-105 lg:hover:bg-[#232326];
+  }
+
+  .social-network {
+    @apply rounded-lg border-2 border-colorText px-4 py-[10px] text-sm font-medium text-white transition-all duration-300 ease-in-out lg:hover:scale-110;
+  }
+
+  .image-carousel {
+    @apply min-[500px]:w-[400px] min-[900px]:w-[420px] lg:w-[470px];
+  }
+
+  .button-arrow-carousel {
+    @apply flex items-center justify-center rounded-full bg-[#7D8590] p-[3px];
   }
 }
