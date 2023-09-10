@@ -10,9 +10,9 @@ export const SectionExperience = () => {
 
   return (
     <>
-      <div className="padding-x container-max-width">
+      <div className="padding-x container-max-width py-5 pb-8">
         <h2 className="subtitle-portfolio mb-6">Experiencia</h2>
-        <section className="grid gap-y-6 py-8 pt-5 sm:gap-x-8 sm:gap-y-0 min-[740px]:grid-cols-[.8fr,1fr] min-[740px]:gap-x-12 lg:grid-cols-[.7fr,1fr] lg:gap-x-16 min-[1200px]:grid-cols-2">
+        <section className="grid gap-y-8 py-8 pt-5 sm:gap-x-8 min-[740px]:grid-cols-[.8fr,1fr] min-[740px]:gap-x-12 min-[740px]:gap-y-0 lg:grid-cols-[.7fr,1fr] lg:gap-x-14 min-[1200px]:grid-cols-2">
           <div>
             <TechnologyInfo
               date={date}
@@ -26,7 +26,7 @@ export const SectionExperience = () => {
             <Link
               href="https://www.datascience.pe/"
               target="_blank"
-              className="transiti grid grid-cols-[23px,1fr] items-center gap-x-2  py-[10px] text-[15px] font-normal text-white opacity-70 transition-all duration-300 ease-in-out hover:underline"
+              className="grid grid-cols-[23px,1fr] items-center gap-x-2  py-[10px] text-[15px] font-normal text-white opacity-70 hover:underline"
             >
               <IconWorldWww size={20} color="#fff" stroke={2} />
               Visitar sitio web

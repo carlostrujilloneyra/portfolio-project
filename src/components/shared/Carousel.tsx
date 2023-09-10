@@ -10,7 +10,7 @@ interface Props {
 }
 
 const autoSlide: boolean = false;
-const autoSlideTime: number = 4000;
+const autoSlideTime: number = 3200;
 
 export const Carousel = ({ images }: Props) => {
   const [curr, setCurr] = useState<number>(0);
@@ -32,7 +32,7 @@ export const Carousel = ({ images }: Props) => {
 
   return (
     <>
-      <div className="relative max-h-[370px] overflow-hidden sm:max-h-[330px] lg:max-h-[360px]">
+      <div className="relative -order-1 max-h-[370px] overflow-hidden rounded-lg min-[740px]:order-1 min-[740px]:max-h-[260px] min-[790px]:max-h-[280px] min-[940px]:max-h-[330px] lg:max-h-[360px]">
         <div
           className="flex transition-transform duration-700 ease-in-out"
           style={{ transform: `translateX(-${curr * 100}%)` }}
@@ -46,7 +46,6 @@ export const Carousel = ({ images }: Props) => {
               alt={alt}
               width={width}
               height={height}
-              priority
             />
           ))}
         </div>
@@ -57,13 +56,13 @@ export const Carousel = ({ images }: Props) => {
           handleNextImage={handleNextImage}
         />
 
-        <div className="absolute bottom-[10px] left-0 right-0">
+        <div className="absolute bottom-[10px] left-0 right-0 min-[740px]:bottom-[18px] min-[800px]:bottom-[10px]">
           <div className="flex items-center justify-center gap-2">
             {images.map((_, i) => (
               <div
                 key={i}
                 className={`h-2 w-2 rounded-full bg-white transition-all ${
-                  curr === i ? "p-[5px]" : "bg-opacity-50"
+                  curr === i ? "p-[6px]" : "bg-opacity-50"
                 }
             `}
               />
