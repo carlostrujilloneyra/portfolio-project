@@ -45,7 +45,7 @@ export const projectsData: Project[] = [
       },
 
       {
-        url: "/images/projects/audiophile/Audiophile-Altavoces.png",
+        url: "/images/projects/audiophile/Audiophile-Altavoces.webp",
         width: 1056,
         height: 792,
         alt: "Audiophile Altavoces",
@@ -59,7 +59,7 @@ export const projectsData: Project[] = [
       },
 
       {
-        url: "/images/projects/audiophile/Audiophile-Audífonos.png",
+        url: "/images/projects/audiophile/Audiophile-Audífonos.webp",
         width: 1056,
         height: 792,
         alt: "Audiophile Audífonos",
@@ -119,28 +119,28 @@ export const projectsData: Project[] = [
     ],
     images: [
       {
-        url: "/images/projects/landing/Landing-Home.png",
+        url: "/images/projects/landing/Landing-Home.webp",
         width: 1056,
         height: 792,
         alt: "Landing Home",
       },
 
       {
-        url: "/images/projects/landing/Landing-Home-part1.png",
+        url: "/images/projects/landing/Landing-Home-part1.webp",
         width: 1056,
         height: 792,
         alt: "Landing Home part1",
       },
 
       {
-        url: "/images/projects/landing/Lading-Home-part2.png",
+        url: "/images/projects/landing/Lading-Home-part2.webp",
         width: 1056,
         height: 792,
         alt: "Landing Home part2",
       },
 
       {
-        url: "/images/projects/landing/Landing-About.png",
+        url: "/images/projects/landing/Landing-About.webp",
         width: 1056,
         height: 792,
         alt: "Landing About",
@@ -186,56 +186,56 @@ export const projectsData: Project[] = [
 
     images: [
       {
-        url: "/images/projects/photosnap/Photosnap-Home.png",
+        url: "/images/projects/photosnap/Photosnap-Home.webp",
         width: 1056,
         height: 792,
         alt: "Photosnap Home",
       },
 
       {
-        url: "/images/projects/photosnap/Photosnap-Home-part1.png",
+        url: "/images/projects/photosnap/Photosnap-Home-part1.webp",
         width: 1056,
         height: 792,
         alt: "Photosnap Home part1",
       },
 
       {
-        url: "/images/projects/photosnap/Photosnap-Home-part2.png",
+        url: "/images/projects/photosnap/Photosnap-Home-part2.webp",
         width: 1056,
         height: 792,
         alt: "Photosnap Home part2",
       },
 
       {
-        url: "/images/projects/photosnap/Photosnap-Stories.png",
+        url: "/images/projects/photosnap/Photosnap-Stories.webp",
         width: 1056,
         height: 792,
         alt: "Photosnap Stories",
       },
 
       {
-        url: "/images/projects/photosnap/Photosnap-Features.png",
+        url: "/images/projects/photosnap/Photosnap-Features.webp",
         width: 1056,
         height: 792,
         alt: "Photosnap Features",
       },
 
       {
-        url: "/images/projects/photosnap/Photosnap-Features-part1.png",
+        url: "/images/projects/photosnap/Photosnap-Features-part1.webp",
         width: 1056,
         height: 792,
         alt: "Photosnap Features part1",
       },
 
       {
-        url: "/images/projects/photosnap/Photosnap-Pricing.png",
+        url: "/images/projects/photosnap/Photosnap-Pricing.webp",
         width: 1056,
         height: 792,
         alt: "Photosnap Pricing",
       },
 
       {
-        url: "/images/projects/photosnap/Photosnap-Pricing-part1.png",
+        url: "/images/projects/photosnap/Photosnap-Pricing-part1.webp",
         width: 1056,
         height: 792,
         alt: "Photosnap Pricing part1",
@@ -269,7 +269,7 @@ export const projectsData: Project[] = [
 
     images: [
       {
-        url: "/images/projects/scoot/Scoot-Home.png",
+        url: "/images/projects/scoot/Scoot-Home.webp",
         width: 1056,
         height: 792,
         alt: "Scoot Home",
@@ -283,21 +283,21 @@ export const projectsData: Project[] = [
       },
 
       {
-        url: "/images/projects/scoot/Scoot-Home-part2.png",
+        url: "/images/projects/scoot/Scoot-Home-part2.webp",
         width: 1056,
         height: 792,
         alt: "Scoot Home part2",
       },
 
       {
-        url: "/images/projects/scoot/Scoot-About.png",
+        url: "/images/projects/scoot/Scoot-About.webp",
         width: 1056,
         height: 792,
         alt: "Scoot About",
       },
 
       {
-        url: "/images/projects/scoot/Scoot-Careers.png",
+        url: "/images/projects/scoot/Scoot-Careers.webp",
         width: 1056,
         height: 792,
         alt: "Scoot Careers",
