@@ -1,6 +1,6 @@
 import { Project } from "../types/project.interface";
 
-export const projects: Project[] = [
+export const projectsData: Project[] = [
   {
     title: "Audiophile Ecommerce",
     description:
@@ -27,8 +27,8 @@ export const projects: Project[] = [
       },
 
       {
-        id: "Framer Motion",
-        name: "Framer Motion",
+        id: "Framer",
+        name: "Framer",
       },
     ],
     images: [
@@ -81,6 +81,7 @@ export const projects: Project[] = [
         alt: "Audiophile compra exitosa",
       },
     ],
+    orderDifferent: false,
   },
 
   {
@@ -104,8 +105,8 @@ export const projects: Project[] = [
       },
 
       {
-        id: "Framer Motion",
-        name: "Framer Motion",
+        id: "Framer",
+        name: "Framer",
       },
     ],
     images: [
@@ -137,6 +138,7 @@ export const projects: Project[] = [
         alt: "Landing Contact",
       },
     ],
+    orderDifferent: true,
   },
 
   {
@@ -160,8 +162,8 @@ export const projects: Project[] = [
       },
 
       {
-        id: "Framer Motion",
-        name: "Framer Motion",
+        id: "Framer",
+        name: "Framer",
       },
     ],
 
@@ -222,12 +224,13 @@ export const projects: Project[] = [
         alt: "Photosnap Pricing part1",
       },
     ],
+    orderDifferent: false,
   },
 
   {
     title: "Scoot Multi Page",
     description:
-      "Landing Page de una empresa de alquiler de scooters, cuenta con varias páginas como Home, About, Location, Careers.",
+      "Landing Page de una empresa de alquiler de scooters, cuenta con varias páginas como Home, About, Location, Careers. Desarrollado con las tecnologías bases del lado Frontend.",
     technologies: [
       {
         id: "HTML",
@@ -281,5 +284,6 @@ export const projects: Project[] = [
         alt: "Scoot Careers",
       },
     ],
+    orderDifferent: true,
   },
 ];

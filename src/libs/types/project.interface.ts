@@ -3,6 +3,7 @@ export interface Project {
   description: string;
   technologies: Technology[];
   images: Image[];
+  orderDifferent: boolean;
 }
 
 interface Technology {
