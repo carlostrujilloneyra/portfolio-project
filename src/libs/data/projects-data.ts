@@ -132,6 +132,13 @@ export const projectsData: Project[] = [
       },
 
       {
+        url: "/images/projects/landing/Landing-About.png",
+        width: 1056,
+        height: 792,
+        alt: "Landing About",
+      },
+
+      {
         url: "/images/projects/landing/Landing-Contact.png",
         width: 1056,
         height: 792,
