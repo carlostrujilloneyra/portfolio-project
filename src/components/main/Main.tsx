@@ -9,7 +9,7 @@ export const Main = () => {
 
   return (
     <>
-      <main className="padding-x container-max-width py-4 sm:py-6 lg:py-8">
+      <main className="padding-x container-max-width py-4 pb-8 sm:py-9 sm:pt-7 lg:py-12 lg:pt-7">
         <h2 className="subtitle-portfolio mb-5">Proyectos realizados</h2>
         <p className="mb-6 text-justify text-[17px] font-light leading-[27px] text-colorText sm:mb-6 lg:w-2/3">
           Estos son algunos de los proyectos que he realizado para poner en

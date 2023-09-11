@@ -4,6 +4,8 @@ export interface Project {
   technologies: Technology[];
   images: Image[];
   orderDifferent: boolean;
+  url_github: string;
+  url_website: string;
 }
 
 interface Technology {

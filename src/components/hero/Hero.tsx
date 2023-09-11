@@ -13,10 +13,10 @@ export const Hero = () => {
             <Typewriter
               options={{
                 strings: [
-                  "Desarrollador Frontend",
-                  "Programador Web",
-                  "React Developer",
-                  "Desarollador Web",
+                  "Desarrollador Frontend.",
+                  "Programador Web.",
+                  "React Developer.",
+                  "Desarollador Web.",
                 ],
                 deleteSpeed: 80,
                 wrapperClassName: "frontend-gradient",

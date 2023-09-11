@@ -4,11 +4,16 @@ export const projectsData: Project[] = [
   {
     title: "Audiophile Ecommerce",
     description:
-      "Sitio Web que cuenta con tres categorías y sus respectivos productos, tiene un checkout para simular la compra de un producto y cuenta con validación respectiva.",
+      "Sitio Web que cuenta con tres categorías (Audífonos, Altavoces y Auriculares). El proyecto cuenta con un carrito de compras que permite agregar y eliminar productos, se usó Redux Toolkit para el manejo de estas acciones y localStorage. Tiene un checkout para simular la compra de un producto, donde se debe completar un formulario con varios campos que cuenta con validaciones.",
     technologies: [
       {
         id: "React",
         name: "React",
+      },
+
+      {
+        id: "React router",
+        name: "React router",
       },
 
       {
@@ -82,12 +87,15 @@ export const projectsData: Project[] = [
       },
     ],
     orderDifferent: false,
+    url_github:
+      "https://github.com/carlostrujilloneyra/proyecto-audiophile-ecommerce",
+    url_website: "https://main--ecommerce-carlos-trujillo-neyra.netlify.app/",
   },
 
   {
     title: "Landing Page",
     description:
-      "Landing Page de una empresa de desarrollo de software, cuenta con un formulario de contacto.",
+      "Landing Page de una empresa que atrae a las personas talentosas que deseen unirse a equipos de alto rendimiento. En esta página se presenta a los directores con su respectiva información y un formulario de contacto para facilitar la comunicación.",
     technologies: [
       {
         id: "React",
@@ -146,12 +154,14 @@ export const projectsData: Project[] = [
       },
     ],
     orderDifferent: true,
+    url_github: "https://github.com/carlostrujilloneyra/landing-page-project",
+    url_website: "https://landing-page-carlos-trujillo.netlify.app/",
   },
 
   {
     title: "Photosnap",
     description:
-      "Landing Page de una empresa de fotografía, cuenta con varias páginas como Home, Stories, Features y Pricing, es totalmente responsive.",
+      "Plataforma diseñada para fotógrafos y narradores visuales. El objetivo es simplificar la experiencia de compartir fotos, contar historias y conectarse con otras personas. Cuenta con varias páginas como Home, Stories (donde los fotógrafos pueden compartir sus fotografías), Features y Pricing (donde se pueden ver los diferentes planes mensuales y anuales).",
     technologies: [
       {
         id: "React",
@@ -232,12 +242,14 @@ export const projectsData: Project[] = [
       },
     ],
     orderDifferent: false,
+    url_github: "https://github.com/carlostrujilloneyra/proyecto-photosnap",
+    url_website: "https://photo-snap-project-carlos-trujillo.netlify.app/",
   },
 
   {
     title: "Scoot Multi Page",
     description:
-      "Landing Page de una empresa de alquiler de scooters, cuenta con varias páginas como Home, About, Location, Careers. Desarrollado con las tecnologías bases del lado Frontend.",
+      "Landing Page de una empresa de alquiler de scooters que se encuentran en diferentes ubicaciones y su app muestra información del scooter (carga que le queda y un precio aproximado). Tiene varias páginas como Home, About, Location, Careers. Desarrollado con las tecnologías bases del lado Frontend.",
     technologies: [
       {
         id: "HTML",
@@ -292,5 +304,9 @@ export const projectsData: Project[] = [
       },
     ],
     orderDifferent: true,
+    url_github:
+      "https://github.com/carlostrujilloneyra/Scoot-multi-page-Website",
+    url_website:
+      "https://carlostrujilloneyra.github.io/Scoot-multi-page-Website/",
   },
 ];

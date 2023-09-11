@@ -4,7 +4,7 @@ export const experienceData: Experience = {
   date: "Mayo22 - Abr23",
   company: "DSRP",
   description:
-    "Colaboré con el desarrollo de diferentes componentes, interfaces y páginas, trabajando con el equipo de diseño y marketing. También me encargué de las mejoras de funcionalidades de la Web.",
+    "Colaboré con el desarrollo de diferentes componentes, interfaces y páginas, trabajando con el equipo de diseño y marketing. También me encargué de las mejoras de funcionalidades de la Web y proponer ideas para mejorar la experiencia de usuario (UX).",
   role: "Programador Web",
   technologies: [
     {

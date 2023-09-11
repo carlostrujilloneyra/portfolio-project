@@ -32,7 +32,7 @@ export const Carousel = ({ images }: Props) => {
 
   return (
     <>
-      <div className="relative -order-1 max-h-[370px] overflow-hidden rounded-lg min-[740px]:order-1 min-[740px]:max-h-[260px] min-[790px]:max-h-[280px] min-[940px]:max-h-[330px] lg:max-h-[360px] min-[1400px]:max-h-[380px]">
+      <div className="relative -order-1 max-h-[370px] overflow-hidden rounded-lg min-[740px]:order-1 min-[740px]:max-h-[225px] min-[820px]:max-h-[280px] min-[940px]:max-h-[330px] lg:max-h-[360px] min-[1400px]:max-h-[380px]">
         <div
           className="flex transition-transform duration-700 ease-in-out"
           style={{ transform: `translateX(-${curr * 100}%)` }}
@@ -46,7 +46,6 @@ export const Carousel = ({ images }: Props) => {
               alt={alt}
               width={width}
               height={height}
-              priority={true}
             />
           ))}
         </div>
