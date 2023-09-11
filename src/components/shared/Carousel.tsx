@@ -34,18 +34,20 @@ export const Carousel = ({ images }: Props) => {
     <>
       <div className="relative -order-1 max-h-[370px] overflow-hidden rounded-lg min-[740px]:order-1 min-[740px]:max-h-[225px] min-[820px]:max-h-[280px] min-[940px]:max-h-[330px] lg:max-h-[360px] min-[1400px]:max-h-[380px]">
         <div
-          className="flex transition-transform duration-700 ease-in-out"
-          style={{ transform: `translateX(-${curr * 100}%)` }}
+          className="relative  flex transition-transform duration-700 ease-in-out"
+          style={{ transform: `translateX(-${curr * 100}%)`, height: 400 }}
         >
           {images.map(({ url, width, height, alt }) => (
             <Image
               key={url}
               className="image-carousel rounded-lg shadow-lg"
               style={{ objectFit: "contain", width: "100%" }}
-              src={url}
-              alt={alt}
               width={width}
               height={height}
+              src={url}
+              sizes="(max-width: 740px) 100vw, 460px"
+              alt={alt}
+              priority={true}
             />
           ))}
         </div>

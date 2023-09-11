@@ -24,8 +24,8 @@ export const ProjectCard = ({ project }: Props) => {
       <div
         className={`grid ${
           orderDifferent ? "grid-different" : "grid-normal"
-        } gap-y-8 pb-4 pt-8 sm:gap-x-8 min-[740px]:gap-x-12 min-[740px]:gap-y-0 
-        lg:gap-x-14 lg:pb-5 
+        } gap-y-8 rounded-lg pb-4 pt-8 sm:gap-x-8 min-[740px]:gap-x-12 
+        min-[740px]:gap-y-0 lg:gap-x-14 lg:pb-5
         `}
       >
         <div className={`${orderDifferent && "order-4"}`}>

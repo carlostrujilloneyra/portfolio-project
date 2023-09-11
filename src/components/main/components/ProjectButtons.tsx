@@ -9,7 +9,7 @@ interface Props {
 export const ProjectButtons = ({ url_github, url_website }: Props) => {
   return (
     <>
-      <div className="mt-8 grid grid-cols-[repeat(2,max-content)] gap-x-3 gap-y-4 min-[550px]:grid-cols-[repeat(2,max-content)] sm:gap-x-3 min-[740px]:mt-3 lg:mt-6 lg:gap-x-4 lg:gap-y-0">
+      <div className="mt-8 grid grid-cols-[repeat(1,max-content)] gap-x-3 gap-y-4 min-[550px]:grid-cols-[repeat(2,max-content)] sm:grid-cols-[repeat(2,max-content)] sm:gap-x-3 min-[740px]:mt-3 lg:mt-6 lg:gap-x-4 lg:gap-y-0">
         <Link
           href={url_github}
           target="_blank"
