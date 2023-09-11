@@ -41,7 +41,7 @@ export const Carousel = ({ images }: Props) => {
             <Image
               key={url}
               className="image-carousel rounded-lg shadow-lg"
-              style={{ objectFit: "contain" }}
+              style={{ objectFit: "contain", width: "100%" }}
               width={width}
               height={height}
               src={url}
