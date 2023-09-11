@@ -33,16 +33,16 @@ export const projectsData: Project[] = [
     ],
     images: [
       {
-        url: "/images/projects/audiophile/Audiophile-Home.png",
-        width: 2112,
-        height: 1584,
+        url: "/images/projects/audiophile/Audiophile-Home.webp",
+        width: 1056,
+        height: 792,
         alt: "Audiophile Home",
       },
 
       {
         url: "/images/projects/audiophile/Audiophile-Altavoces.png",
-        width: 2112,
-        height: 1584,
+        width: 1056,
+        height: 792,
         alt: "Audiophile Altavoces",
       },
 
@@ -69,13 +69,13 @@ export const projectsData: Project[] = [
 
       {
         url: "/images/projects/audiophile/Audiophile-checkout.webp",
-        width: 2112,
-        height: 1584,
+        width: 1056,
+        height: 792,
         alt: "Audiophile checkout",
       },
 
       {
-        url: "/images/projects/audiophile/Audiophile-compra-exitosa.png",
+        url: "/images/projects/audiophile/Audiophile-compra-exitosa.jpg",
         width: 1056,
         height: 792,
         alt: "Audiophile compra exitosa",
@@ -126,8 +126,8 @@ export const projectsData: Project[] = [
 
       {
         url: "/images/projects/landing/Lading-Home-part2.png",
-        width: 2112,
-        height: 1584,
+        width: 1056,
+        height: 792,
         alt: "Landing Home part2",
       },
 
