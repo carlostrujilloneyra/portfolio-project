@@ -61,14 +61,14 @@ export const projectsData: Project[] = [
       },
 
       {
-        url: "/images/projects/audiophile/Audiophile-detalle-producto.png",
+        url: "/images/projects/audiophile/Audiophile-detalle-producto.webp",
         width: 1056,
         height: 792,
         alt: "Audiophile detalle producto",
       },
 
       {
-        url: "/images/projects/audiophile/Audiophile-checkout.png",
+        url: "/images/projects/audiophile/Audiophile-checkout.webp",
         width: 2112,
         height: 1584,
         alt: "Audiophile checkout",

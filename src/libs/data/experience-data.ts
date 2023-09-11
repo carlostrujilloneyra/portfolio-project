@@ -44,35 +44,35 @@ export const experienceData: Experience = {
   ],
   images: [
     {
-      url: "/images/experience/DSRP-Home.png",
+      url: "/images/experience/DSRP-Home.webp",
       width: 2112,
       height: 1584,
       alt: "DSRP Home",
     },
 
     {
-      url: "/images/experience/DSRP-About.png",
+      url: "/images/experience/DSRP-About.webp",
       width: 2112,
       height: 1584,
       alt: "DSRP About",
     },
 
     {
-      url: "/images/experience/DSRP-Bolsa-de-trabajo.png",
+      url: "/images/experience/DSRP-Bolsa-de-trabajo.webp",
       width: 2112,
       height: 1584,
       alt: "DSRP Bolsa de trabajo",
     },
 
     {
-      url: "/images/experience/DSRP-Cursos.png",
+      url: "/images/experience/DSRP-Cursos.webp",
       width: 2112,
       height: 1584,
       alt: "DSRP Cursos",
     },
 
     {
-      url: "/images/experience/DSRP-Detalle-del-curso.png",
+      url: "/images/experience/DSRP-Detalle-del-curso.webp",
       width: 2112,
       height: 1584,
       alt: "DSRP Detalle del curso",

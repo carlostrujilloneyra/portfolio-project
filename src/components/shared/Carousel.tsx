@@ -46,6 +46,7 @@ export const Carousel = ({ images }: Props) => {
               alt={alt}
               width={width}
               height={height}
+              priority={true}
             />
           ))}
         </div>
