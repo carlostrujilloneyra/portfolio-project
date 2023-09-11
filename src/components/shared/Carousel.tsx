@@ -10,7 +10,7 @@ interface Props {
 }
 
 const autoSlide: boolean = false;
-const autoSlideTime: number = 3200;
+const autoSlideTime: number = 3100;
 
 export const Carousel = ({ images }: Props) => {
   const [curr, setCurr] = useState<number>(0);
@@ -41,11 +41,10 @@ export const Carousel = ({ images }: Props) => {
             <Image
               key={url}
               className="image-carousel rounded-lg shadow-lg"
-              style={{ objectFit: "contain", width: "100%" }}
+              style={{ objectFit: "contain" }}
               width={width}
               height={height}
               src={url}
-              sizes="(max-width: 740px) 100vw, 460px"
               alt={alt}
               priority={true}
             />
