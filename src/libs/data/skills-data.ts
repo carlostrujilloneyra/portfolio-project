@@ -87,7 +87,7 @@ export const skillsData: SkillInterface[] = [
 
   {
     id: "Framer Motion",
-    name: "Framer M.",
+    name: "Framer",
     url: "/images/skills/brand-framer-motion.svg",
   },
 
