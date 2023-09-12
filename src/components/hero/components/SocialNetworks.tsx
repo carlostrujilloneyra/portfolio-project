@@ -20,7 +20,7 @@ export const SocialNetworks = () => {
 
   return (
     <>
-      <div className="mt-6 grid grid-cols-[repeat(2,max-content)] gap-x-3 gap-y-4 min-[550px]:grid-cols-[repeat(3,max-content)] sm:mt-8 lg:grid-cols-[repeat(2,max-content)] lg:gap-y-5 min-[1280px]:grid-cols-[repeat(3,max-content)]">
+      <div className="mt-6 grid grid-cols-[repeat(2,max-content)] gap-x-3 gap-y-4 min-[550px]:grid-cols-[repeat(3,max-content)] sm:mt-8 lg:grid-cols-[repeat(2,max-content)] lg:gap-y-5 min-[1120px]:grid-cols-[repeat(3,max-content)]">
         <button onClick={handleDownloadCV} className="button-hero-portfolio">
           <IconDownload size={20} color="#fff" stroke={3} />
           Descargar CV

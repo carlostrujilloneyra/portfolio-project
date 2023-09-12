@@ -9,6 +9,7 @@
 
   p,
   button,
+  span,
   a {
     @apply font-lexen_deca;
   }
