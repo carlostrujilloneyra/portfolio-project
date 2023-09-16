@@ -3,8 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply scroll-smooth;
+  }
   body {
-    @apply bg-black;
+    @apply bg-black pt-[100px];
   }
 
   p,
@@ -68,4 +71,28 @@
   .grid-different {
     @apply min-[740px]:grid-cols-[1fr,0.8fr] min-[1024px]:grid-cols-[1fr,0.7fr] min-[1140px]:grid-cols-[repeat(2,1fr)] min-[1350px]:grid-cols-[0.9fr,1fr];
   }
+
+  .item-header {
+    @apply my-4 transition-all duration-[400ms] ease-in-out sm:py-0 lg:h-full lg:hover:scale-[1.6] lg:hover:text-blue-500;
+  }
+
+  .root-header {
+    @apply flex w-full items-center lg:h-full;
+  }
+
+  .nav-mobile {
+    @apply absolute -right-full top-[100px] flex h-screen w-5/6 flex-col bg-black pt-8 text-white transition-all duration-[500ms] ease-in-out;
+  }
+
+  .showMenu {
+    @apply right-0;
+  }
+
+  .nav-tablet-desktop {
+    @apply relative right-auto top-auto flex h-auto w-auto flex-row pt-0;
+  }
+}
+
+.list-header:hover .item-header:not(:hover) {
+  @apply transition-all duration-[400ms] ease-in-out lg:opacity-0;
 }
