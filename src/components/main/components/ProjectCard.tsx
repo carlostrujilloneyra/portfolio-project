@@ -31,6 +31,7 @@ export const ProjectCard = ({ project }: Props) => {
   });
 
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
+  const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
 
   return (
     <>
@@ -38,6 +39,7 @@ export const ProjectCard = ({ project }: Props) => {
         ref={ref}
         style={{
           scale: scaleProgess,
+          opacity: opacityProgress,
         }}
         className={`grid ${
           orderDifferent ? "grid-different" : "grid-normal"

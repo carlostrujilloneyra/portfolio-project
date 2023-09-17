@@ -5,8 +5,8 @@ export const Logo = () => {
   const router = useRouter();
 
   const handleNavigateHome = () => {
-    router.push("/");
     router.refresh();
+    router.push("/");
   };
 
   return (
