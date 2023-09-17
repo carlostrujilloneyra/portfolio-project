@@ -3,6 +3,8 @@
   to = "/index.html"
   status = 200
   conditions = { 
+    # Excluir archivos con extensiones comunes
+    # Añade más extensiones según sea necesario
     "not": [
       { "field": "Path", "regex": "^/static/.*\\.css$" },
       { "field": "Path", "regex": "^/static/.*\\.js$" },
