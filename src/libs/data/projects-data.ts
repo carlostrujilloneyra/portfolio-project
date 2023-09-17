@@ -276,7 +276,7 @@ export const projectsData: Project[] = [
       },
 
       {
-        url: "/images/projects/scoot/Scoot-Home-part1.png",
+        url: "/images/projects/scoot/Scoot-Home-part1.webp",
         width: 1056,
         height: 792,
         alt: "Scoot Home part1",
