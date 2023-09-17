@@ -7,7 +7,6 @@
     # Añade más extensiones según sea necesario
     "not": [
       { "field": "Path", "regex": "^/static/.*\\.css$" },
-      { "field": "Path", "regex": "^/static/.*\\.js$" },
-      { "field": "Path", "regex": "^/static/.*\\.jpg$" },
+      # Agrega más extensiones o patrones aquí según sea necesario
     ]
   }
