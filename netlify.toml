@@ -1,4 +1,11 @@
 [[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  conditions = { 
+    "not": [
+      { "field": "Path", "regex": "^/static/.*\\.css$" },
+      { "field": "Path", "regex": "^/static/.*\\.js$" },
+      { "field": "Path", "regex": "^/static/.*\\.jpg$" },
+    ]
+  }
