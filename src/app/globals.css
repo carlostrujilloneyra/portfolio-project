@@ -81,7 +81,7 @@
   }
 
   .nav-mobile {
-    @apply absolute -right-full top-[90px] flex h-screen w-5/6 flex-col bg-black pt-8 text-white transition-all duration-[500ms] ease-in-out;
+    @apply absolute -right-full top-[90px] flex h-screen w-2/3 flex-col bg-black pt-8 text-white transition-all duration-[500ms] ease-in-out;
   }
 
   .showMenu {

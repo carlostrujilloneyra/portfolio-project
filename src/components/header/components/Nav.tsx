@@ -16,25 +16,37 @@ export const Nav = ({ showMenu }: Props) => {
       >
         <ul className="list-header flex h-full flex-col items-center sm:flex-row">
           <li className="item-header sm:mx-4">
-            <Link className="root-header" href="#about">
+            <Link
+              className="root-header"
+              href="/https://carlostrujilloneyra.netlify.app/#about"
+            >
               Acerca de
             </Link>
           </li>
 
           <li className="item-header sm:mx-4">
-            <Link className="root-header" href="#skills">
+            <Link
+              className="root-header"
+              href="/https://carlostrujilloneyra.netlify.app/#skills"
+            >
               Skills
             </Link>
           </li>
 
           <li className="item-header sm:mx-4">
-            <Link className="root-header" href="#experience">
+            <Link
+              className="root-header"
+              href="/https://carlostrujilloneyra.netlify.app/#experience"
+            >
               Experiencia
             </Link>
           </li>
 
           <li className="item-header sm:mx-4">
-            <Link className="root-header" href="#projects">
+            <Link
+              className="root-header"
+              href="/https://carlostrujilloneyra.netlify.app/#projects"
+            >
               Proyectos
             </Link>
           </li>
