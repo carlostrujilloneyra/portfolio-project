@@ -12,7 +12,7 @@ export const Logo = () => {
   return (
     <>
       <h2
-        className="min-h-[40px] text-4xl font-extrabold tracking-[3px] text-white"
+        className="min-h-[40px] text-4xl font-extrabold tracking-[3px] text-white hover:cursor-pointer"
         onClick={handleNavigateHome}
       >
         CT

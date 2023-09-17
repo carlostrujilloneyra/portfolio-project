@@ -8,7 +8,7 @@ export const Header = () => {
 
   return (
     <>
-      <header className="container-max-width padding-x fixed left-0 right-0 top-0 z-40 flex h-[100px] w-full content-center items-center justify-between bg-gradient py-8 sm:py-9">
+      <header className="container-max-width padding-x fixed left-0 right-0 top-0 z-40 flex h-[90px] w-full content-center items-center justify-between bg-gradient py-8 sm:py-9">
         {/* Logo */}
         <Logo />
 
@@ -16,7 +16,7 @@ export const Header = () => {
         <Hamburguer showMenu={showMenu} setShowMenu={setShowMenu} />
 
         {/* Nav */}
-        <Nav showMenu={showMenu} />
+        <Nav showMenu={showMenu} setShowMenu={setShowMenu} />
 
         {/* Botón para cambiar a modo claro */}
       </header>

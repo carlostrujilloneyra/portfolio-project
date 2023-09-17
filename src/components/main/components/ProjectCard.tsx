@@ -1,8 +1,12 @@
+"use client";
+
 import { Project } from "@/libs/types/project.interface";
 import { ProjectInfo } from ".";
 import { TechnologyList } from "@/components/section/components";
 import { Carousel } from "@/components/shared/Carousel";
 import { ProjectButtons } from "./ProjectButtons";
+import { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 interface Props {
   project: Project;
@@ -19,9 +23,22 @@ export const ProjectCard = ({ project }: Props) => {
     url_website,
   } = project;
 
+  const ref = useRef<HTMLDivElement>(null);
+
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["0 1", "1.33 1"],
+  });
+
+  const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
+
   return (
     <>
-      <div
+      <motion.div
+        ref={ref}
+        style={{
+          scale: scaleProgess,
+        }}
         className={`grid ${
           orderDifferent ? "grid-different" : "grid-normal"
         } gap-y-8 rounded-lg pb-4 pt-8 sm:gap-x-8 min-[740px]:gap-x-12 
@@ -36,7 +53,7 @@ export const ProjectCard = ({ project }: Props) => {
         </div>
 
         <Carousel images={images} />
-      </div>
+      </motion.div>
     </>
   );
 };

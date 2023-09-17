@@ -13,7 +13,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         gradient:
-          "linear-gradient(90deg, hsla(240, 10%, 4%, 1) 30%, hsla(207, 10%, 23%, 1) 100%)",
+          "linear-gradient(90deg, hsla(240, 10%, 4%, 1) 40%, hsla(226, 10%, 14%, 1) 100%)",
       },
       colors: {
         darkGrey: "#1B1F24",
