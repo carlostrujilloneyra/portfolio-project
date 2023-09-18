@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Kumbh_Sans, Lexend_Deca } from "next/font/google";
-import "./globals.css";
 import { Footer, Header } from "@/components";
+import "./globals.css";
 
 const kumbh_sans = Kumbh_Sans({
   weight: ["600", "700", "800", "900"],
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   description:
     "¡Hola!, estoy encantado de que estés aquí, te presento mi portafolio donde podrás ver mis proyectos y habilidades. Dentro de él encontrarás una variedad de proyectos que abarcan diferentes áreas y desafíos. Te invito a explorar mis proyectos y siéntete libre de contactarme si tienes alguna pregunta o si deseas trabajar conmigo.",
   keywords:
-    "My portfolio, portafolio, Next.js, carlostrujillo, desarrollador, developer, frontend, frontend-developer, programador, proyectos, react, portafolio de proyectos, html, css, javascript, portafolio de proyectos, programación, react developer",
+    "My portfolio, portafolio, Next.js, carlostrujillo, desarrollador, developer, frontend, frontend-developer, programador, proyectos, react, portafolio de proyectos, html, css, javascript, portafolio de proyectos, programación, react developer.",
   creator: "Carlos Trujillo",
   authors: [{ name: "Carlos Trujillo" }],
   applicationName: "Portafolio de Carlos Trujillo",
