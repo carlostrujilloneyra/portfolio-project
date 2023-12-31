@@ -7,7 +7,7 @@ export const Footer = () => {
         <Logo />
         <div>
           <p className="text-end text-sm text-white">
-            &copy; 2023, Carlos Trujillo Neyra
+            &copy; 2024, Carlos Trujillo Neyra
           </p>
         </div>
       </footer>
