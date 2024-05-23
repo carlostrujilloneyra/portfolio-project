@@ -5,6 +5,7 @@ export interface Experience {
   role: string;
   technologies: Technology[];
   images: Image[];
+  hasSite?: boolean;
 }
 
 interface Technology {
