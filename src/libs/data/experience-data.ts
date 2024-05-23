@@ -89,6 +89,13 @@ export const experienceData: Experience[] = [
         height: 792,
         alt: "OCS Venta Total Diaria Part 2",
       },
+
+      {
+        url: "/images/experience/OCS/VentasProveedor.png",
+        width: 1056,
+        height: 792,
+        alt: "OCS Venta Proveedor",
+      },
     ],
     hasSite: false,
   },
