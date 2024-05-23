@@ -16,7 +16,7 @@ export const Main = () => {
         <h2 className="subtitle-portfolio mb-5">Proyectos realizados</h2>
         <p className="mb-6 text-justify text-[17px] font-light leading-[27px] text-colorText sm:mb-6 lg:w-2/3">
           Estos son algunos de los proyectos que he realizado para poner en
-          práctica los conocimientos adquiridos de manera autodidacta, los
+          práctica los conocimientos adquiridos de manera autodidacta, algunos
           diseños usados en los proyectos fueron tomados de{" "}
           <Link
             className="underline"
