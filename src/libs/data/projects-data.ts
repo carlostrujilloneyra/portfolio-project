@@ -65,9 +65,10 @@ export const projectsData: Project[] = [
         alt: "Agenda Datathon",
       },
     ],
-    orderDifferent: false,
+    orderDifferent: true,
     url_website: "https://datathon-ferreyros.com/",
   },
+
   {
     title: "Audiophile Ecommerce",
     description:
