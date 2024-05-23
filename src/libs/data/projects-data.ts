@@ -2,6 +2,73 @@ import { Project } from "../types/project.interface";
 
 export const projectsData: Project[] = [
   {
+    title: "Datathon Ferreyros",
+    description:
+      "Desarrollé un proyecto reciente del que estoy muy orgulloso: es una página web especial para el evento Datathon Ferreyros. Este proyecto ha sido una oportunidad increíble para poner en práctica mis habilidades en HTML, CSS y JavaScript, especialmente en la creación de animaciones.",
+    technologies: [
+      {
+        id: "HTML",
+        name: "HTML",
+      },
+
+      {
+        id: "CSS ",
+        name: "CSS",
+      },
+
+      {
+        id: "JavaScript",
+        name: "JavaScript",
+      },
+    ],
+    images: [
+      {
+        url: "/images/projects/datathon/Home-Datathon.png",
+        width: 1056,
+        height: 792,
+        alt: "Home Datathon",
+      },
+      {
+        url: "/images/projects/datathon/Problematica.png",
+        width: 1056,
+        height: 792,
+        alt: "Problemática Datathon",
+      },
+      {
+        url: "/images/projects/datathon/Retos.png",
+        width: 1056,
+        height: 792,
+        alt: "Retos Datathon",
+      },
+      {
+        url: "/images/projects/datathon/Participantes.png",
+        width: 1056,
+        height: 792,
+        alt: "Participantes Datathon",
+      },
+      {
+        url: "/images/projects/datathon/Habilidades.png",
+        width: 1056,
+        height: 792,
+        alt: "Habilidades Datathon",
+      },
+      {
+        url: "/images/projects/datathon/Premios.png",
+        width: 1056,
+        height: 792,
+        alt: "Premios Datathon",
+      },
+      {
+        url: "/images/projects/datathon/Agenda.png",
+        width: 1056,
+        height: 792,
+        alt: "Agenda Datathon",
+      },
+    ],
+    orderDifferent: false,
+    url_website: "https://datathon-ferreyros.com/",
+  },
+  {
     title: "Audiophile Ecommerce",
     description:
       "Sitio Web que cuenta con tres categorías (Audífonos, Altavoces y Auriculares). El proyecto cuenta con un carrito de compras que permite agregar y eliminar productos, se usó Redux Toolkit para el manejo de estas acciones y localStorage. Tiene un checkout para simular la compra de un producto, donde se debe completar un formulario con varios campos que cuenta con validaciones.",
