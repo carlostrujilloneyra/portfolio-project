@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import { Kumbh_Sans, Lexend_Deca } from "next/font/google";
 import { Footer, Header } from "@/components";
@@ -70,6 +71,7 @@ export default function RootLayout({
       <body className={`${kumbh_sans.variable} ${lexend_deca.variable}`}>
         <Header />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>
