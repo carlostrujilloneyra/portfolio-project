@@ -117,6 +117,13 @@ export const experienceData: Experience[] = [
         height: 792,
         alt: "OCS Venta Utilidad Bruta 3",
       },
+
+      {
+        url: "/images/experience/OCS/Reporte-Util-Bruta.png",
+        width: 1056,
+        height: 792,
+        alt: "OCS Reporte de Utilidad Bruta",
+      },
     ],
     hasSite: false,
   },
