@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Kumbh_Sans, Lexend_Deca } from "next/font/google";
 import { Footer, Header } from "@/components";
 import "./globals.css";
+import { StateProvider } from "@/libs/context/StateProvider";
 
 const kumbh_sans = Kumbh_Sans({
   weight: ["600", "700", "800", "900"],
@@ -69,10 +70,12 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={`${kumbh_sans.variable} ${lexend_deca.variable}`}>
-        <Header />
-        {children}
-        <Analytics />
-        <Footer />
+        <StateProvider>
+          <Header />
+          {children}
+          <Analytics />
+          <Footer />
+        </StateProvider>
       </body>
     </html>
   );

@@ -1,13 +1,25 @@
+"use client";
+
 import { skillsData } from "@/libs/data/skills-data";
 import { SkillList } from "./components";
+import { useContext } from "react";
+import { StateContext } from "@/libs/context/StateContext";
 
 export const SkillSection = () => {
   const skills = skillsData;
+
+  const { showMenu, setShowMenu, setIsOpen, isOpen } = useContext(StateContext);
+
+  const handleTapMenu = () => {
+    setShowMenu(!showMenu);
+    setIsOpen(!isOpen);
+  };
 
   return (
     <>
       <section
         className="padding-x container-max-width py-6 lg:pt-9"
+        onClick={handleTapMenu}
         id="skills"
       >
         <h2 className="subtitle-portfolio mb-4">Skills / Tecnologías</h2>

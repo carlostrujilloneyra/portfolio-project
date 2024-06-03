@@ -1,6 +1,7 @@
 export interface Experience {
   date: string;
   company: string;
+  duration?: string;
   description: string;
   role: string;
   technologies: Technology[];

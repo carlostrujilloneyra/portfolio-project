@@ -1,12 +1,11 @@
 "use client";
+import { StateContext } from "@/libs/context/StateContext";
 import Link from "next/link";
+import { useContext } from "react";
 
-interface Props {
-  showMenu: boolean;
-  setShowMenu: React.Dispatch<React.SetStateAction<boolean>>;
-}
+export const Nav = () => {
+  const { showMenu } = useContext(StateContext);
 
-export const Nav = ({ showMenu }: Props) => {
   return (
     <>
       <nav

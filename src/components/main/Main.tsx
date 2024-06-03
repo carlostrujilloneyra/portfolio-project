@@ -3,14 +3,24 @@
 import Link from "next/link";
 import { ProjectList } from "./components";
 import { projectsData } from "@/libs/data/projects-data";
+import { useContext } from "react";
+import { StateContext } from "@/libs/context/StateContext";
 
 export const Main = () => {
   const projects = projectsData;
+
+  const { showMenu, setShowMenu, setIsOpen, isOpen } = useContext(StateContext);
+
+  const handleTapMenu = () => {
+    setShowMenu(!showMenu);
+    setIsOpen(!isOpen);
+  };
 
   return (
     <>
       <main
         className="padding-x container-max-width py-4 pb-8 sm:py-9 sm:pt-7 lg:py-12 lg:pt-7"
+        onClick={handleTapMenu}
         id="projects"
       >
         <h2 className="subtitle-portfolio mb-5">Proyectos realizados</h2>

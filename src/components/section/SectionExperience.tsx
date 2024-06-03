@@ -6,8 +6,17 @@ import { experienceData } from "@/libs/data/experience-data";
 import Link from "next/link";
 import { Carousel } from "../shared/Carousel";
 import { motion } from "framer-motion";
+import { StateContext } from "@/libs/context/StateContext";
+import { useContext } from "react";
 
 export const SectionExperience = () => {
+  const { showMenu, setShowMenu, setIsOpen, isOpen } = useContext(StateContext);
+
+  const handleTapMenu = () => {
+    setShowMenu(!showMenu);
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
       <motion.div
@@ -15,6 +24,7 @@ export const SectionExperience = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.2 }}
         className="padding-x container-max-width py-5"
+        onClick={handleTapMenu}
         id="experience"
       >
         <h2 className="subtitle-portfolio mb-6">Experiencia</h2>
@@ -28,6 +38,7 @@ export const SectionExperience = () => {
                 technologies,
                 images,
                 company,
+                duration,
                 hasSite,
               },
               index,
@@ -43,6 +54,7 @@ export const SectionExperience = () => {
                       role={role}
                       description={description}
                       company={company}
+                      duration={duration}
                     />
 
                     <TechnologyList technologies={technologies} />

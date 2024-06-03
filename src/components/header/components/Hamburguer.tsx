@@ -1,15 +1,11 @@
 "use client";
 
+import { StateContext } from "@/libs/context/StateContext";
 import Hamburger from "hamburger-react";
-import { useState } from "react";
+import { useContext, useState } from "react";
 
-interface Props {
-  showMenu: boolean;
-  setShowMenu: React.Dispatch<React.SetStateAction<boolean>>;
-}
-
-export const Hamburguer = ({ setShowMenu, showMenu }: Props) => {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
+export const Hamburguer = () => {
+  const { showMenu, setShowMenu, isOpen, setIsOpen } = useContext(StateContext);
 
   const handleTapMenu = () => {
     setShowMenu(!showMenu);

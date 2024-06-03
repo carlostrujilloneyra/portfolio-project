@@ -35,6 +35,20 @@ export const experienceData: Experience[] = [
     ],
     images: [
       {
+        url: "/images/experience/OCS/Descuentos-Ruc.png",
+        width: 1056,
+        height: 792,
+        alt: "Descuentos RUC",
+      },
+
+      {
+        url: "/images/experience/OCS/Precio-Especial.png",
+        width: 1056,
+        height: 792,
+        alt: "OCS Analitico Mov Por Cobrar",
+      },
+
+      {
         url: "/images/experience/OCS/AnaliticoMovPorCobrar.png",
         width: 1056,
         height: 792,
@@ -131,6 +145,7 @@ export const experienceData: Experience[] = [
   {
     date: "Mayo22 - Abr23",
     company: "DSRP",
+    duration: "(1 año)",
     description:
       "Colaboré con el desarrollo de diferentes componentes, interfaces y páginas, trabajando con el equipo de diseño y marketing. También me encargué de las mejoras de funcionalidades de la Web y proponer ideas para mejorar la experiencia de usuario (UX).",
     role: "Programador Web",
