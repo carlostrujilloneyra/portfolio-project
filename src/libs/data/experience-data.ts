@@ -77,6 +77,13 @@ export const experienceData: Experience[] = [
       },
 
       {
+        url: "/images/experience/OCS/Reporte_Excel.png",
+        width: 1056,
+        height: 792,
+        alt: "Reporte Excel",
+      },
+
+      {
         url: "/images/experience/OCS/PartVentaPorLinea.png",
         width: 1056,
         height: 792,
