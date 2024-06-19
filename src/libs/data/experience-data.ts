@@ -70,6 +70,20 @@ export const experienceData: Experience[] = [
       },
 
       {
+        url: "/images/experience/OCS/Reporte_Vales_Diarios.png",
+        width: 1056,
+        height: 792,
+        alt: "OCS Reporte Vales Diarios",
+      },
+
+      {
+        url: "/images/experience/OCS/Reporte_Vales_Diarios2.png",
+        width: 1056,
+        height: 792,
+        alt: "OCS Reporte Vales Diarios 2",
+      },
+
+      {
         url: "/images/experience/OCS/MedidaDiariaVarilla.png",
         width: 1056,
         height: 792,
@@ -112,6 +126,13 @@ export const experienceData: Experience[] = [
       },
 
       {
+        url: "/images/experience/OCS/Resumen_Valorizado.png",
+        width: 1056,
+        height: 792,
+        alt: "OCS Resumen Valorizado",
+      },
+
+      {
         url: "/images/experience/OCS/VentasProveedor.png",
         width: 1056,
         height: 792,
@@ -144,6 +165,27 @@ export const experienceData: Experience[] = [
         width: 1056,
         height: 792,
         alt: "OCS Reporte de Utilidad Bruta",
+      },
+
+      {
+        url: "/images/experience/OCS/Tabla_Utilidad_Bruta.png",
+        width: 1056,
+        height: 792,
+        alt: "OCS Tabla de Utilidad Bruta",
+      },
+
+      {
+        url: "/images/experience/OCS/Vale_Credito.png",
+        width: 1056,
+        height: 792,
+        alt: "OCS Vale Credito",
+      },
+
+      {
+        url: "/images/experience/OCS/Vale_Credito2.png",
+        width: 1056,
+        height: 792,
+        alt: "OCS Vale Credito 2",
       },
     ],
     hasSite: false,
