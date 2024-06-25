@@ -9,10 +9,10 @@ import {
 
 export const SocialNetworks = () => {
   const handleDownloadCV = () => {
-    const cvUrl = "/TRUJILLO_NEYRA_CARLOS_AUGUSTO.pdf";
+    const cvUrl = "/TRUJILLO_NEYRA_CARLOS_AUGUSTO_CV.pdf";
     const link: HTMLAnchorElement = document.createElement("a");
     link.href = cvUrl;
-    link.download = "TRUJILLO_NEYRA_CARLOS_AUGUSTO.pdf";
+    link.download = "TRUJILLO_NEYRA_CARLOS_AUGUSTO_CV.pdf";
     link.target = "_blank";
 
     link.click();
