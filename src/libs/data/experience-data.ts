@@ -201,7 +201,7 @@ export const experienceData: Experience[] = [
     technologies: [
       {
         id: "Angular",
-        name: "Angular",
+        name: "Angular v10",
       },
 
       {

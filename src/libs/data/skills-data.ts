@@ -50,18 +50,6 @@ export const skillsData: SkillInterface[] = [
   },
 
   {
-    id: "Hooks",
-    name: "Hooks",
-    url: "/images/skills/brand-react.svg",
-  },
-
-  {
-    id: "Styled-Components",
-    name: "Styled C.",
-    url: "/images/skills/brand-react.svg",
-  },
-
-  {
     id: "Redux",
     name: "Redux",
     url: "/images/skills/brand-redux.svg",
