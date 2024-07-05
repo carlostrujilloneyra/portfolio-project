@@ -63,13 +63,6 @@ export const experienceData: Experience[] = [
       },
 
       {
-        url: "/images/experience/OCS/Logistica-Linea.png",
-        width: 1056,
-        height: 792,
-        alt: "OCS Logistica Linea",
-      },
-
-      {
         url: "/images/experience/OCS/Reporte_Vales_Diarios.png",
         width: 1056,
         height: 792,
@@ -105,13 +98,6 @@ export const experienceData: Experience[] = [
       },
 
       {
-        url: "/images/experience/OCS/VentaCombustibles.png",
-        width: 1056,
-        height: 792,
-        alt: "OCS Venta Combustibles",
-      },
-
-      {
         url: "/images/experience/OCS/VentaTotalDiariaPart1.png",
         width: 1056,
         height: 792,
@@ -123,13 +109,6 @@ export const experienceData: Experience[] = [
         width: 1056,
         height: 792,
         alt: "OCS Venta Total Diaria Part 2",
-      },
-
-      {
-        url: "/images/experience/OCS/Resumen_Valorizado.png",
-        width: 1056,
-        height: 792,
-        alt: "OCS Resumen Valorizado",
       },
 
       {
@@ -151,13 +130,6 @@ export const experienceData: Experience[] = [
         width: 1056,
         height: 792,
         alt: "OCS Venta Utilidad Bruta 2",
-      },
-
-      {
-        url: "/images/experience/OCS/Utilidad_Bruta3.png",
-        width: 1056,
-        height: 792,
-        alt: "OCS Venta Utilidad Bruta 3",
       },
 
       {
@@ -247,6 +219,27 @@ export const experienceData: Experience[] = [
         width: 1056,
         height: 792,
         alt: "DSRP About",
+      },
+
+      {
+        url: "/images/experience/DSRP/DSRP-Testimonios.jpg",
+        width: 1056,
+        height: 792,
+        alt: "DSRP Testimonios",
+      },
+
+      {
+        url: "/images/experience/DSRP/DSRP-TrabajaconNosotros.jpg",
+        width: 1056,
+        height: 792,
+        alt: "DSRP Trabaja con nosotros",
+      },
+
+      {
+        url: "/images/experience/DSRP/DSRP-TrabajaconNosotros2.webp",
+        width: 1056,
+        height: 792,
+        alt: "DSRP Trabaja con nosotros parte 2",
       },
 
       {
