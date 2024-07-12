@@ -35,126 +35,126 @@ export const experienceData: Experience[] = [
     ],
     images: [
       {
-        url: "/images/experience/OCS/Descuentos-Ruc.png",
+        url: "/images/experience/OCS/Descuentos-Ruc.webp",
         width: 1056,
         height: 792,
         alt: "Descuentos RUC",
       },
 
       {
-        url: "/images/experience/OCS/Precio-Especial.png",
+        url: "/images/experience/OCS/Precio-Especial.webp",
         width: 1056,
         height: 792,
         alt: "OCS Analitico Mov Por Cobrar",
       },
 
       {
-        url: "/images/experience/OCS/AnaliticoMovPorCobrar.png",
+        url: "/images/experience/OCS/AnaliticoMovPorCobrar.webp",
         width: 1056,
         height: 792,
         alt: "OCS Analitico Mov Por Cobrar",
       },
 
       {
-        url: "/images/experience/OCS/Combustible-ContometrosDigTurnos.png",
+        url: "/images/experience/OCS/Combustible-ContometrosDigTurnos.webp",
         width: 1056,
         height: 792,
         alt: "OCS Combustible Contometros Dig Turnos",
       },
 
       {
-        url: "/images/experience/OCS/Reporte_Vales_Diarios.png",
+        url: "/images/experience/OCS/Reporte_Vales_Diarios.webp",
         width: 1056,
         height: 792,
         alt: "OCS Reporte Vales Diarios",
       },
 
       {
-        url: "/images/experience/OCS/Reporte_Vales_Diarios2.png",
+        url: "/images/experience/OCS/Reporte_Vales_Diarios2.webp",
         width: 1056,
         height: 792,
         alt: "OCS Reporte Vales Diarios 2",
       },
 
       {
-        url: "/images/experience/OCS/MedidaDiariaVarilla.png",
+        url: "/images/experience/OCS/MedidaDiariaVarilla.webp",
         width: 1056,
         height: 792,
         alt: "OCS Medida Diaria Varilla",
       },
 
       {
-        url: "/images/experience/OCS/Reporte_Excel.png",
+        url: "/images/experience/OCS/Reporte_Excel.webp",
         width: 1056,
         height: 792,
         alt: "Reporte Excel",
       },
 
       {
-        url: "/images/experience/OCS/PartVentaPorLinea.png",
+        url: "/images/experience/OCS/PartVentaPorLinea.webp",
         width: 1056,
         height: 792,
         alt: "OCS Part Venta Por Linea",
       },
 
       {
-        url: "/images/experience/OCS/VentaTotalDiariaPart1.png",
+        url: "/images/experience/OCS/VentaTotalDiariaPart1.webp",
         width: 1056,
         height: 792,
         alt: "OCS Venta Total Diaria Part 1",
       },
 
       {
-        url: "/images/experience/OCS/VentaTotalDiariaPart2.png",
+        url: "/images/experience/OCS/VentaTotalDiariaPart2.webp",
         width: 1056,
         height: 792,
         alt: "OCS Venta Total Diaria Part 2",
       },
 
       {
-        url: "/images/experience/OCS/VentasProveedor.png",
+        url: "/images/experience/OCS/VentasProveedor.webp",
         width: 1056,
         height: 792,
         alt: "OCS Venta Proveedor",
       },
 
       {
-        url: "/images/experience/OCS/Utilidad_Bruta.png",
+        url: "/images/experience/OCS/Utilidad_Bruta.webp",
         width: 1056,
         height: 792,
         alt: "OCS Venta Utilidad Bruta",
       },
 
       {
-        url: "/images/experience/OCS/Utilidad_Bruta2.png",
+        url: "/images/experience/OCS/Utilidad_Bruta2.webp",
         width: 1056,
         height: 792,
         alt: "OCS Venta Utilidad Bruta 2",
       },
 
       {
-        url: "/images/experience/OCS/Reporte-Util-Bruta.png",
+        url: "/images/experience/OCS/Reporte-Util-Bruta.webp",
         width: 1056,
         height: 792,
         alt: "OCS Reporte de Utilidad Bruta",
       },
 
       {
-        url: "/images/experience/OCS/Tabla_Utilidad_Bruta.png",
+        url: "/images/experience/OCS/Tabla_Utilidad_Bruta.webp",
         width: 1056,
         height: 792,
         alt: "OCS Tabla de Utilidad Bruta",
       },
 
       {
-        url: "/images/experience/OCS/Vale_Credito.png",
+        url: "/images/experience/OCS/Vale_Credito.webp",
         width: 1056,
         height: 792,
         alt: "OCS Vale Credito",
       },
 
       {
-        url: "/images/experience/OCS/Vale_Credito2.png",
+        url: "/images/experience/OCS/Vale_Credito2.webp",
         width: 1056,
         height: 792,
         alt: "OCS Vale Credito 2",
@@ -222,14 +222,14 @@ export const experienceData: Experience[] = [
       },
 
       {
-        url: "/images/experience/DSRP/DSRP-Testimonios.jpg",
+        url: "/images/experience/DSRP/DSRP-Testimonios.webp",
         width: 1056,
         height: 792,
         alt: "DSRP Testimonios",
       },
 
       {
-        url: "/images/experience/DSRP/DSRP-TrabajaconNosotros.jpg",
+        url: "/images/experience/DSRP/DSRP-TrabajaconNosotros.webp",
         width: 1056,
         height: 792,
         alt: "DSRP Trabaja con nosotros",
