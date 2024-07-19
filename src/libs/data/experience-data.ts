@@ -164,7 +164,7 @@ export const experienceData: Experience[] = [
   },
 
   {
-    date: "Mayo22 - Abr23",
+    date: "Mayo22 - Mayo23",
     company: "DSRP",
     duration: "(1 año)",
     description:
