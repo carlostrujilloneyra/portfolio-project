@@ -27,21 +27,21 @@ export const SocialNetworks = () => {
         </button>
 
         <Link
-          href="https://github.com/carlostrujilloneyra"
-          target="_blank"
-          className="social-network grid grid-cols-[22px,50px] items-center  gap-x-3 lg:hover:bg-[#232326]"
-        >
-          <IconBrandGithubFilled size={20} color="#fff" stroke={3} />
-          GitHub
-        </Link>
-
-        <Link
           href="https://www.linkedin.com/in/carlostrujillo21/"
           target="_blank"
           className="social-network grid w-[150px] grid-cols-[23px,max-content] items-center gap-x-3 lg:hover:border-[#0b66c2] lg:hover:bg-[#0b66c2]"
         >
           <IconBrandLinkedin size={22} color="#fff" stroke={2} />
           Linkedin
+        </Link>
+
+        <Link
+          href="https://github.com/carlostrujilloneyra"
+          target="_blank"
+          className="social-network grid grid-cols-[22px,50px] items-center  gap-x-3 lg:hover:bg-[#232326]"
+        >
+          <IconBrandGithubFilled size={20} color="#fff" stroke={3} />
+          GitHub
         </Link>
       </div>
     </>
