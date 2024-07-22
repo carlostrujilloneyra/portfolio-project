@@ -1,9 +1,10 @@
 import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import { Kumbh_Sans, Lexend_Deca } from "next/font/google";
-import { Footer, Header } from "@/components";
-import "./globals.css";
 import { StateProvider } from "@/libs/context/StateProvider";
+import { Footer, Header } from "@/components";
+
+import "./globals.css";
 
 const kumbh_sans = Kumbh_Sans({
   weight: ["600", "700", "800", "900"],

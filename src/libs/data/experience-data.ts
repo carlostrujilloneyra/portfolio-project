@@ -2,7 +2,7 @@ import { Experience } from "../types/experience.interface";
 
 export const experienceData: Experience[] = [
   {
-    date: "Nov23 - Actualidad",
+    date: "Nov23 - Jul23",
     company: "Open Comb Systems (OCS)",
     description:
       "Participé en el desarrollo de diferentes vistas, en la creación de formularios y en la generación de reportes en formatos PDF y Excel. Mi objetivo principal fue contribuir a la migración de un sistema legacy. Colaboré estrechamente con los equipos de frontend y backend, y asistí en la refactorización del código.",
@@ -70,13 +70,6 @@ export const experienceData: Experience[] = [
       },
 
       {
-        url: "/images/experience/OCS/Reporte_Vales_Diarios2.webp",
-        width: 1056,
-        height: 792,
-        alt: "OCS Reporte Vales Diarios 2",
-      },
-
-      {
         url: "/images/experience/OCS/MedidaDiariaVarilla.webp",
         width: 1056,
         height: 792,
@@ -112,24 +105,10 @@ export const experienceData: Experience[] = [
       },
 
       {
-        url: "/images/experience/OCS/VentasProveedor.webp",
-        width: 1056,
-        height: 792,
-        alt: "OCS Venta Proveedor",
-      },
-
-      {
         url: "/images/experience/OCS/Utilidad_Bruta.webp",
         width: 1056,
         height: 792,
         alt: "OCS Venta Utilidad Bruta",
-      },
-
-      {
-        url: "/images/experience/OCS/Utilidad_Bruta2.webp",
-        width: 1056,
-        height: 792,
-        alt: "OCS Venta Utilidad Bruta 2",
       },
 
       {
@@ -166,7 +145,7 @@ export const experienceData: Experience[] = [
   {
     date: "Mayo22 - Mayo23",
     company: "DSRP",
-    duration: "(1 año)",
+
     description:
       "Colaboré con el desarrollo de diferentes componentes, interfaces y páginas, trabajando con el equipo de diseño y marketing. También me encargué de las mejoras de funcionalidades de la Web y proponer ideas para mejorar la experiencia de usuario (UX).",
     role: "Programador Web",
